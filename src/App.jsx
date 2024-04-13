@@ -1,5 +1,6 @@
 import {calender,location, email, facebook, github, instagram, linkedin, mobile, profile_photo, about, resume1, work1, projects, contact, experience, cpp, javascript, typescript, react, nextjs, tailwindcss, python, figma, docker} from './assets'
 import { useState } from 'react'
+import {resume} from './assets/resume-4.pdf'
 import {About, Contact, Education, Experience, Projects} from './sections'
 function App() {
   const [sec,setsec]=useState("about");
@@ -63,7 +64,7 @@ function App() {
             </div>
           </div>
           <div className='flex justify-center mt-3'>
-            <button className=' bg-blue-600 rounded-[3px] py-1 px-4 text-white text-xs hover:bg-blue-700'>Download CV</button>
+            <a href='./assets/resume-4.pdf' download><button className=' bg-blue-600 rounded-[3px] py-1 px-4 text-white text-xs hover:bg-blue-700'>Download CV</button></a>
           </div>
         </div>
         <div className="mb-4 bg-white shadow-md shadow-gray-500 min-h-[90vh] w-[110vh] rounded-2xl">
