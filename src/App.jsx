@@ -1,6 +1,6 @@
 import {calender,location, email, facebook, github, instagram, linkedin, mobile, profile_photo, about, resume1, work1, projects, contact, experience, cpp, javascript, typescript, react, nextjs, tailwindcss, python, figma, docker} from './assets'
 import { useState } from 'react'
-import {resume} from './assets/resume-4.pdf'
+import {resume} from './assets'
 import {About, Contact, Education, Experience, Projects} from './sections'
 function App() {
   const [sec,setsec]=useState("about");

@@ -1,6 +1,7 @@
 import about from './about.svg'
 import calender from './calender.svg'
 import contact from './contact.svg'
+import resume from './resume-4.pdf'
 import email from './email.svg'
 import experience from './experience.svg'
 import facebook from './facebook.svg'
@@ -25,7 +26,7 @@ import tailwindcss from './tailwindcss-icon.svg'
 import typescript from './typescript-icon.svg'
 import figma from './figma.svg'
 export{
-    about,profile_photo,projects,instagram,facebook,files,work1,
+    about,profile_photo,projects,instagram,facebook,files,work1,resume,
     twitter,resume1,calender,contact,github,linkedin,location,mobile,
     figma,email,experience,cpp,docker,javascript,nextjs,react,python,tailwindcss,typescript
 }
